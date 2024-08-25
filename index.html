@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Univer Server</title>
 </head>
-
 <body>
      <script>
          var ws = new WebSocket("ws://localhost:8448/ws");
@@ -24,7 +22,7 @@
          ws.onclose = function(evt) {
              console.log("Connection closed.");
          };
-     </script>
-</body>
 
+         </script>
+</body>
 </html>
